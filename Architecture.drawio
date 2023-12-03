@@ -1,0 +1,183 @@
+<mxfile host="65bd71144e">
+    <diagram id="abMmuXXbtzs_68tmquE7" name="Page-1">
+        <mxGraphModel dx="933" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="15" value="Traditional multi-level architecture" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="250" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Project" style="swimlane;startSize=20;horizontal=1;containerType=tree;" parent="15" vertex="1">
+                    <mxGeometry x="30" y="30" width="190" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="5" source="7" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="View (Render)" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="5" vertex="1">
+                    <mxGeometry x="10" y="30" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Controller (Vendor)" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="5" vertex="1">
+                    <mxGeometry x="10" y="80" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="5" source="8" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="235" y="140" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Service&amp;nbsp;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="5" vertex="1">
+                    <mxGeometry x="10" y="130" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="5" source="11" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="235" y="190" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Persistence&lt;br&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="5" vertex="1">
+                    <mxGeometry x="10" y="180" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Data Base&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="15" vertex="1">
+                    <mxGeometry x="85" y="310" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" parent="15" vertex="1">
+                    <mxGeometry x="117.5" y="270" width="17.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Dynamic contained multi-level architecture" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="10" width="520" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Project" style="swimlane;startSize=20;horizontal=1;containerType=tree;" parent="16" vertex="1">
+                    <mxGeometry x="30" y="30" width="190" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="17" source="19" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="View (Render)" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="17" vertex="1">
+                    <mxGeometry x="10" y="30" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Controller (Vendor)" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="17" vertex="1">
+                    <mxGeometry x="10" y="60" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="17" source="20" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="235" y="140" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Service&amp;nbsp;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="17" vertex="1">
+                    <mxGeometry x="10" y="170" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="17" source="22" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="235" y="320" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Persistence&lt;br&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="17" vertex="1">
+                    <mxGeometry x="10" y="200" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="17" source="28" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="445" y="150" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="Dynamical Bridge&lt;br&gt;example: ID 65" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="17" vertex="1">
+                    <mxGeometry x="10" y="90" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="17" source="69" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="445" y="180" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="Conteiners for (self)" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="17" vertex="1">
+                    <mxGeometry x="10" y="140" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Data Base&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="16" vertex="1">
+                    <mxGeometry x="85" y="310" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" parent="16" vertex="1">
+                    <mxGeometry x="117.5" y="270" width="17.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Project 2" style="swimlane;startSize=20;horizontal=1;containerType=tree;" parent="16" vertex="1">
+                    <mxGeometry x="300" y="30" width="190" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="51" source="53" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="View (Render)" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="51" vertex="1">
+                    <mxGeometry x="10" y="30" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Controller (Vendor)" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="51" vertex="1">
+                    <mxGeometry x="20" y="60" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="51" source="54" target="60" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="235" y="140" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="Service&amp;nbsp;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="51" vertex="1">
+                    <mxGeometry x="10" y="170" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="51" source="56" target="58" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="235" y="320" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="Persistence&lt;br&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="51" vertex="1">
+                    <mxGeometry x="10" y="200" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="51" source="60" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="445" y="150" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="Dynamical Bridge&lt;br&gt;example: ID 84&lt;br&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="51" vertex="1">
+                    <mxGeometry x="20" y="90" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" parent="51" source="72" target="56" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="715" y="190" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="Containers for (65, self)" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="51" vertex="1">
+                    <mxGeometry x="10" y="140" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Data Base&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="16" vertex="1">
+                    <mxGeometry x="355" y="310" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" parent="16" vertex="1">
+                    <mxGeometry x="387.5" y="270" width="17.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="16" source="28" target="60" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="150" as="sourcePoint"/>
+                        <mxPoint x="260" y="100" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="290" y="150"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="16" source="28" target="54" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="130" as="sourcePoint"/>
+                        <mxPoint x="320" y="130" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="290" y="120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="Set backend from bridge (ID=84) pj2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" parent="16" vertex="1">
+                    <mxGeometry x="220" y="120" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;global&lt;/font&gt;" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;fontSize=7;arcSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="70" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="Containers" style="html=1;whiteSpace=wrap;container=1;recursiveResize=0;collapsible=0;fontSize=15;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="130" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value=".htaccess" style="html=1;whiteSpace=wrap;container=1;recursiveResize=0;collapsible=0;rounded=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="190" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="triangle;html=1;whiteSpace=wrap;rounded=0;fontSize=15;" parent="81" vertex="1">
+                    <mxGeometry x="10" y="15" width="20" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
